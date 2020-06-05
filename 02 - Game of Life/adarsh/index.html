@@ -2,9 +2,9 @@
 <html>
   <head>
     <title>Game of Life</title>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="sketch.js"></script>
+    <script src="lib/p5.min.js" type="text/javascript"></script>
+    <script src="src/sketch.js" type="text/javascript"></script>
+    <script src="src/conway.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
@@ -13,11 +13,11 @@
       <div class="info1">
         <p>Click the board to Draw the pattern and Click Start</p>
       </div>
-      <div class="info2">
+      <!-- <div class="info2">
         <p>
           Or Simple click start to see <span id="red">R-Pentomino Pattern</span>
         </p>
-      </div>
+      </div> -->
       <div class="tools">
         <span id="button"
           ><button type="button" id="start" onclick="start()">
